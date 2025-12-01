@@ -18,11 +18,11 @@ const IconCard = ({ href, icon, label }: IconCardProps) => {
 }
 
 const icons = [
-  { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-chart-line', label: 'ASC' },
-  { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-sth', label: 'Student Registry' },
-  { href: '', icon: 'fa-sth', label: 'sth' },
-  { href: '', icon: 'fa-sth', label: 'sth' },
-  { href: '', icon: 'fa-sth', label: 'sth' },
+  { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-school', label: 'ASC' },
+  { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-user-graduate', label: 'Student Registry' },
+  { href: '', icon: 'fa-chalkboard-teacher', label: 'Teachers' },
+  { href: '', icon: 'fa-chart-bar', label: 'Reports' },
+  { href: '', icon: 'fa-cogs', label: 'Settings' },
 ]
 
 function App() {
