@@ -20,8 +20,8 @@ const IconCard = ({ href, icon, label }: IconCardProps) => {
 const icons = [
   { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-school', label: 'Annual School Census' },
   { href: 'https://registry.dhis2nigeria.org.ng/dhis', icon: 'fa-user-graduate', label: 'Student Registry' },
-  { href: '', icon: 'fa-chart-pie', label: 'Analytics' },
   { href: '', icon: 'fa-chalkboard-teacher', label: 'Teacher Registry' },
+  { href: '', icon: 'fa-chart-pie', label: 'Analytics' },
   { href: '', icon: 'fa-book', label: 'Resources' },
 ]
 
@@ -54,7 +54,7 @@ function App() {
 
       <footer>
         <div className="footer-content">
-          © 2025 Federal Ministry of Education, Nigeria
+          © 2025 Federal Ministry of Education, Nigeria 
         </div>
       </footer>
     </>
