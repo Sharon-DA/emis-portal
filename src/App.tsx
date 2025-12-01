@@ -18,11 +18,11 @@ const IconCard = ({ href, icon, label }: IconCardProps) => {
 }
 
 const icons = [
-  { href: 'https://link.com', icon: 'fa-chart-line', label: 'sth' },
-  { href: 'https://link.com', icon: 'fa-sth', label: 'sth' },
-  { href: 'https://link.com', icon: 'fa-sth', label: 'sth' },
-  { href: 'https://link.com', icon: 'fa-sth', label: 'sth' },
-  { href: 'https://link.com', icon: 'fa-sth', label: 'sth' },
+  { href: '', icon: 'fa-chart-line', label: 'sth' },
+  { href: '', icon: 'fa-sth', label: 'sth' },
+  { href: '', icon: 'fa-sth', label: 'sth' },
+  { href: '', icon: 'fa-sth', label: 'sth' },
+  { href: '', icon: 'fa-sth', label: 'sth' },
 ]
 
 function App() {
