@@ -18,8 +18,8 @@ const IconCard = ({ href, icon, label }: IconCardProps) => {
 }
 
 const icons = [
-  { href: '', icon: 'fa-chart-line', label: 'sth' },
-  { href: '', icon: 'fa-sth', label: 'sth' },
+  { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-chart-line', label: 'ASC' },
+  { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-sth', label: 'Student Registry' },
   { href: '', icon: 'fa-sth', label: 'sth' },
   { href: '', icon: 'fa-sth', label: 'sth' },
   { href: '', icon: 'fa-sth', label: 'sth' },
@@ -30,7 +30,7 @@ function App() {
     <>
       <header>
         <h1 className="logo">EMIS</h1>
-        <p className="subtitle">Quick Access Portal</p>
+        <p className="subtitle">Education Management Information System</p>
       </header>
 
       <div className="icons-container">
