@@ -7,12 +7,13 @@
 body {
   font-family: 'Outfit', sans-serif;
   min-height: 100vh;
-  background: #f5f7f5;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 2rem;
+  padding-bottom: 4rem;
 }
 
 #root {

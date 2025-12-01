@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 240">
+  <!-- Shield -->
+  <path d="M30 50 L30 140 Q30 180 100 220 Q170 180 170 140 L170 50 Z" fill="#000" stroke="#000" stroke-width="2"/>
+  
+  <!-- White Y shape -->
+  <path d="M30 50 L100 120 L170 50 L155 50 L100 100 L45 50 Z" fill="#fff"/>
+  <path d="M85 120 L85 220 Q100 225 115 220 L115 120 Z" fill="#fff"/>
+  
+  <!-- Green sections -->
+  <path d="M45 50 L100 100 L85 120 L85 140 Q85 170 100 190 L30 140 L30 50 Z" fill="#008751"/>
+  <path d="M155 50 L100 100 L115 120 L115 140 Q115 170 100 190 L170 140 L170 50 Z" fill="#008751"/>
+  
+  <!-- Eagles (simplified) -->
+  <g transform="translate(20, 0)">
+    <!-- Left Eagle -->
+    <ellipse cx="45" cy="35" rx="20" ry="12" fill="#000"/>
+    <circle cx="40" cy="32" r="3" fill="#fff"/>
+    <path d="M25 35 Q20 45 30 50" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M65 35 Q70 45 60 50" stroke="#000" stroke-width="2" fill="none"/>
+  </g>
+  
+  <g transform="translate(90, 0)">
+    <!-- Right Eagle -->
+    <ellipse cx="45" cy="35" rx="20" ry="12" fill="#000"/>
+    <circle cx="50" cy="32" r="3" fill="#fff"/>
+    <path d="M25 35 Q20 45 30 50" stroke="#000" stroke-width="2" fill="none"/>
+    <path d="M65 35 Q70 45 60 50" stroke="#000" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Banner -->
+  <rect x="25" y="225" width="150" height="12" fill="#008751"/>
+  <text x="100" y="234" text-anchor="middle" fill="#fff" font-size="6" font-family="Arial" font-weight="bold">UNITY AND FAITH, PEACE AND PROGRESS</text>
+</svg>
+

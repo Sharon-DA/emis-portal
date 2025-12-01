@@ -19,7 +19,7 @@ const IconCard = ({ href, icon, label }: IconCardProps) => {
 
 const icons = [
   { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-school', label: 'Annual School Census' },
-  { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-user-graduate', label: 'Student Registry' },
+  { href: 'https://registry.dhis2nigeria.org.ng/dhis', icon: 'fa-user-graduate', label: 'Student Registry' },
   { href: '', icon: 'fa-chart-pie', label: 'Analytics' },
   { href: '', icon: 'fa-chalkboard-teacher', label: 'Teacher Registry' },
   { href: '', icon: 'fa-book', label: 'Resources' },
@@ -28,9 +28,17 @@ const icons = [
 function App() {
   return (
     <>
+      <div className="green-bar"></div>
+      
       <header>
+        <p className="nigeria-text">Federal Republic of Nigeria</p>
+        <img 
+          src="/coat-of-arms.jpeg" 
+          alt="Nigerian Coat of Arms" 
+          className="coat-of-arms"
+        />
         <h1 className="logo">EMIS</h1>
-        <p className="subtitle">Education Management Information System</p>
+        <p className="subtitle">Integrated Education Management Information System</p>
       </header>
 
       <div className="icons-container">
@@ -44,7 +52,11 @@ function App() {
         ))}
       </div>
 
-      <footer>© 2025 EMIS Quick Access Portal</footer>
+      <footer>
+        <div className="footer-content">
+          © 2025 Federal Ministry of Education, Nigeria
+        </div>
+      </footer>
     </>
   )
 }
