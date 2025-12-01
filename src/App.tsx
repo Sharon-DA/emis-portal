@@ -37,7 +37,7 @@ function App() {
           alt="Nigerian Coat of Arms" 
           className="coat-of-arms"
         />
-        <h1 className="logo">EMIS</h1>
+        <h1 className="logo"><em>i</em>-EMIS</h1>
         <p className="subtitle">Integrated Education Management Information System</p>
       </header>
 
