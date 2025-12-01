@@ -1,0 +1,85 @@
+header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #1a5d3a;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.25rem;
+}
+
+.subtitle {
+  color: #5a5a5a;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  max-width: 700px;
+}
+
+.icon-card {
+  width: 120px;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.icon-card:hover {
+  border-color: #1a5d3a;
+  box-shadow: 0 4px 12px rgba(26, 93, 58, 0.15);
+}
+
+.icon-wrapper {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  background: #e8f5e9;
+}
+
+.icon-wrapper i {
+  font-size: 1.25rem;
+  color: #1a5d3a;
+}
+
+.icon-label {
+  color: #333;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+footer {
+  position: fixed;
+  bottom: 1.5rem;
+  color: #888;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+  .icons-container {
+    gap: 1rem;
+  }
+  
+  .icon-card {
+    width: 100px;
+    padding: 1.25rem 0.75rem;
+  }
+}
+
