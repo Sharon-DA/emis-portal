@@ -18,7 +18,7 @@ const IconCard = ({ href, icon, label }: IconCardProps) => {
 }
 
 const icons = [
-  { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-school', label: 'ASC' },
+  { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-school', label: 'Annual School Census' },
   { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-user-graduate', label: 'Student Registry' },
   { href: '', icon: 'fa-chart-pie', label: 'Analytics' },
   { href: '', icon: 'fa-chalkboard-teacher', label: 'Teacher Registry' },
