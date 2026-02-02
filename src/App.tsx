@@ -1,63 +1,76 @@
 import './App.css'
 
-interface IconCardProps {
-  href: string
+interface ModuleCardProps {
+  title: string
+  subtitle: string
   icon: string
-  label: string
+  href: string
 }
 
-const IconCard = ({ href, icon, label }: IconCardProps) => {
+const ModuleCard = ({ title, subtitle, icon, href }: ModuleCardProps) => {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer" className="icon-card">
-      <div className="icon-wrapper">
-        <i className={`fas ${icon}`}></i>
-      </div>
-      <span className="icon-label">{label}</span>
+    <a href={href} target="_blank" rel="noopener noreferrer" className="module-card">
+      <div className="module-icon">{icon}</div>
+      <h3 className="module-title">{title}</h3>
+      <p className="module-subtitle">{subtitle}</p>
     </a>
   )
 }
 
-const icons = [
-  { href: 'https://emis.dhis2nigeria.org.ng/dhis', icon: 'fa-school', label: 'Annual School Census' },
-  { href: 'https://registry.dhis2nigeria.org.ng/dhis', icon: 'fa-user-graduate', label: 'Student Registry' },
-  { href: '', icon: 'fa-chalkboard-teacher', label: 'Teacher Registry' },
-  { href: '', icon: 'fa-chart-pie', label: 'Analytics' },
-  { href: '', icon: 'fa-book', label: 'Resources' },
+const modules = [
+  {
+    title: 'ASC',
+    subtitle: 'Annual School Census',
+    icon: '📊✓',
+    href: 'https://emis.dhis2nigeria.org.ng/dhis'
+  },
+  {
+    title: 'Student Registry',
+    subtitle: 'Manage Student Records',
+    icon: '🎓',
+    href: 'https://registry.dhis2nigeria.org.ng/dhis'
+  },
+  {
+    title: 'Knowledgebase',
+    subtitle: 'Access Educational Resources',
+    icon: '📚',
+    href: ''
+  },
+  {
+    title: 'School Tracker',
+    subtitle: 'Monitor School Performance',
+    icon: '🏫📍',
+    href: ''
+  },
 ]
 
 function App() {
   return (
-    <>
-      <div className="green-bar"></div>
+    <div className="app-container">
+      <div className="background-overlay"></div>
       
-      <header>
-        <p className="nigeria-text">Federal Republic of Nigeria</p>
-        <img 
-          src="/coat-of-arms.jpeg" 
-          alt="Nigerian Coat of Arms" 
+      <header className="header">
+        <img
+          src="/top.png"
+          alt="Nigerian Coat of Arms"
           className="coat-of-arms"
         />
-        <h1 className="logo"><em>i</em>-EMIS</h1>
-        <p className="subtitle">Integrated Education Management Information System</p>
+        <h1 className="main-title">Education Data Platform</h1>
+        <p className="main-subtitle">Enhancing Education for a Brighter Future</p>
       </header>
 
-      <div className="icons-container">
-        {icons.map((item, index) => (
-          <IconCard
+      <div className="modules-grid">
+        {modules.map((module, index) => (
+          <ModuleCard
             key={index}
-            href={item.href}
-            icon={item.icon}
-            label={item.label}
+            title={module.title}
+            subtitle={module.subtitle}
+            icon={module.icon}
+            href={module.href}
           />
         ))}
       </div>
-
-      <footer>
-        <div className="footer-content">
-          © 2025 Federal Ministry of Education, Nigeria 
-        </div>
-      </footer>
-    </>
+    </div>
   )
 }
 
