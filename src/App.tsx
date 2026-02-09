@@ -37,8 +37,8 @@ const modules = [
     href: ''
   },
   {
-    title: 'Safre Schools Tool',
-    subtitle: 'Monitor School Performance',
+    title: 'Safe Schools Tool',
+    subtitle: 'Security Status of School',
     icon: '🏫📍',
     href: ''
   },
