@@ -38,7 +38,7 @@ const modules = [
   },
   {
     title: 'Safe Schools Tool',
-    subtitle: 'Security Status of School',
+    subtitle: 'Security Status of Schools',
     icon: '🏫📍',
     href: ''
   },
