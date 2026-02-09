@@ -6,7 +6,7 @@ function openModule(module) {
     'ASC': 'https://emis.dhis2nigeria.org.ng/dhis',
     'Student Registry': 'https://registry.dhis2nigeria.org.ng/dhis',
     'Knowledgebase': '#',
-    'School Tracker': '#'
+    'Safe Schools Tool': '#'
   };
 
   const url = urls[module];
