@@ -3,10 +3,10 @@ function openModule(module) {
   
   // Map module names to URLs
   const urls = {
-    'ASC': 'https://emis.dhis2nigeria.org.ng/dhis',
-    'Student Registry': 'https://registry.dhis2nigeria.org.ng/dhis',
+    'ASC': 'https://emis.dhis2nigeria.org.ng',
+    'Learner Registry': 'https://registry.dhis2nigeria.org.ng/dhis',
     'Knowledgebase': '#',
-    'Safe Schools Tool': '#'
+    'Safe Schools Tool': 'https://emis.dhis2nigeria.org.ng'
   };
 
   const url = urls[module];
