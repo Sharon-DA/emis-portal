@@ -22,10 +22,10 @@ const modules = [
     title: 'ASC',
     subtitle: 'Annual School Census',
     icon: '📊✓',
-    href: 'https://emis.education.gov.ng'
+    href: 'https://emis.dhis2nigeria.org.ng'
   },
   {
-    title: 'Student Registry',
+    title: 'Learner Registry',
     subtitle: 'Manage Student Records',
     icon: '🎓',
     href: 'https://registry.dhis2nigeria.org.ng/dhis'
@@ -39,8 +39,8 @@ const modules = [
   {
     title: 'Safe Schools Tool',
     subtitle: 'Security Status of Schools',
-    icon: '🏫📍',
-    href: 'https://emistraining.dhis2nigeria.org.ng/semis'
+    icon: '🛡',
+    href: 'https://emis.dhis2nigeria.org.ng'
   },
 ]
 
