@@ -39,7 +39,7 @@ const modules = [
   {
     title: 'Safe Schools Tool',
     subtitle: 'Security Status of Schools',
-    icon: '🛡',
+    icon: '🛡️',
     href: 'https://emis.dhis2nigeria.org.ng'
   },
 ]
